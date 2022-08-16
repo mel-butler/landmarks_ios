@@ -28,6 +28,7 @@
 		B4369C6C28AB919C008BA8D5 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4369C6B28AB919C008BA8D5 /* PageViewController.swift */; };
 		B4369C6E28AB939C008BA8D5 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4369C6D28AB939C008BA8D5 /* FeatureCard.swift */; };
 		B4369C7028AB99F8008BA8D5 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4369C6F28AB99F8008BA8D5 /* PageView.swift */; };
+		B4369C7228ABB7F1008BA8D5 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4369C7128ABB7F1008BA8D5 /* PageControl.swift */; };
 		B438CF6428AA45D5004A0546 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438CF6328AA45D5004A0546 /* FavoriteButton.swift */; };
 		B438CF6828AA49E1004A0546 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438CF6728AA49E1004A0546 /* HexagonParameters.swift */; };
 		B438CF6A28AA4EDE004A0546 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438CF6928AA4EDE004A0546 /* BadgeBackground.swift */; };
@@ -90,6 +91,7 @@
 		B4369C6B28AB919C008BA8D5 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		B4369C6D28AB939C008BA8D5 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		B4369C6F28AB99F8008BA8D5 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		B4369C7128ABB7F1008BA8D5 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		B438CF6328AA45D5004A0546 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		B438CF6728AA49E1004A0546 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		B438CF6928AA4EDE004A0546 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				B4369C6828AB8DA4008BA8D5 /* ProfileEditor.swift */,
 				B4369C6D28AB939C008BA8D5 /* FeatureCard.swift */,
 				B4369C6F28AB99F8008BA8D5 /* PageView.swift */,
+				B4369C7128ABB7F1008BA8D5 /* PageControl.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 				B434D81428A5236C00218F24 /* MapView.swift in Sources */,
 				B438E21428AA77E400DC27C3 /* GraphCapsule.swift in Sources */,
 				B434D7E828A5006E00218F24 /* LandmarksApp.swift in Sources */,
+				B4369C7228ABB7F1008BA8D5 /* PageControl.swift in Sources */,
 				B438CF6428AA45D5004A0546 /* FavoriteButton.swift in Sources */,
 				B438E21E28AA82AD00DC27C3 /* CategoryItem.swift in Sources */,
 				B4369C6728AB8607008BA8D5 /* HikeBadge.swift in Sources */,
