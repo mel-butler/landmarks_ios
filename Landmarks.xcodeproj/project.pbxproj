@@ -92,6 +92,9 @@
 		B438E21E28AA82AD00DC27C3 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438E21D28AA82AD00DC27C3 /* CategoryItem.swift */; };
 		B438E22028AA875900DC27C3 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438E21F28AA875900DC27C3 /* Profile.swift */; };
 		B438E22428AA885600DC27C3 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438E22328AA885500DC27C3 /* ProfileHost.swift */; };
+		B4E03FC428ACF1C9000994AF /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E03FC228ACF1C9000994AF /* LandmarkCommands.swift */; };
+		B4E03FC528ACF21F000994AF /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E03FC228ACF1C9000994AF /* LandmarkCommands.swift */; };
+		B4E03FC728AD0811000994AF /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E03FC628AD0811000994AF /* LandmarkSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -251,6 +254,8 @@
 		B438E21D28AA82AD00DC27C3 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		B438E21F28AA875900DC27C3 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		B438E22328AA885500DC27C3 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		B4E03FC228ACF1C9000994AF /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkCommands.swift; path = MacLandmarks/LandmarkCommands.swift; sourceTree = SOURCE_ROOT; };
+		B4E03FC628AD0811000994AF /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -493,11 +498,13 @@
 		B4369CCD28ABD791008BA8D5 /* MacLandmarks */ = {
 			isa = PBXGroup;
 			children = (
+				B4E03FC228ACF1C9000994AF /* LandmarkCommands.swift */,
 				B4369CD028ABD791008BA8D5 /* ContentView.swift */,
 				B4369CD228ABD798008BA8D5 /* Assets.xcassets */,
 				B4369CD728ABD798008BA8D5 /* MacLandmarks.entitlements */,
 				B4369CD428ABD798008BA8D5 /* Preview Content */,
 				B4369D0428ABDA02008BA8D5 /* LandmarkDetail.swift */,
+				B4E03FC628AD0811000994AF /* LandmarkSettings.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -942,6 +949,7 @@
 			files = (
 				B438E21C28AA808900DC27C3 /* CategoryRow.swift in Sources */,
 				B438E22028AA875900DC27C3 /* Profile.swift in Sources */,
+				B4E03FC528ACF21F000994AF /* LandmarkCommands.swift in Sources */,
 				B434D7EA28A5006E00218F24 /* ContentView.swift in Sources */,
 				B438E21A28AA7CB500DC27C3 /* CategoryHome.swift in Sources */,
 				B4369C6E28AB939C008BA8D5 /* FeatureCard.swift in Sources */,
@@ -1036,8 +1044,10 @@
 			files = (
 				B4369CD128ABD791008BA8D5 /* ContentView.swift in Sources */,
 				B4369CF928ABD806008BA8D5 /* Profile.swift in Sources */,
+				B4E03FC728AD0811000994AF /* LandmarkSettings.swift in Sources */,
 				B4369CFA28ABD806008BA8D5 /* LandmarkRow.swift in Sources */,
 				B4369D0328ABD806008BA8D5 /* MapView.swift in Sources */,
+				B4E03FC428ACF1C9000994AF /* LandmarkCommands.swift in Sources */,
 				B4369D0528ABDA02008BA8D5 /* LandmarkDetail.swift in Sources */,
 				B4369CFE28ABD806008BA8D5 /* LandmarksApp.swift in Sources */,
 				B4369CFD28ABD806008BA8D5 /* Hike.swift in Sources */,
